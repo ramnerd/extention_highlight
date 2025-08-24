@@ -1,0 +1,29 @@
+/* Bubble that appears near selected text */
+.quick-highlighter-bubble {
+  position: absolute;
+  z-index: 2147483647;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background: #111;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 9999px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  user-select: none;
+}
+.quick-highlighter-bubble button {
+  all: unset;
+  background: #ffd400;
+  color: #111;
+  padding: 6px 10px;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.quick-highlighter-bubble .status {
+  font-weight: 600;
+}
+.quick-highlighter-hidden { display: none !important; }
